@@ -79,7 +79,7 @@ router.get('/logout', (req, res) => {
   }
 })
 
-router.get('/restricted/stuff', (req, res) => { //Just for trying out the 'restricted' middleware.
+router.get('/restricted/stuff', (req, res) => { 
   res.status(200).json({
     message: 'This data is secure.'
   });
